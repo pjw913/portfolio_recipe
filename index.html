@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>만개의 레시피</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div id="main_container">
+        <header id="main_header">
+            <h1>logo</h1>
+            <button type="button" id="toggle">togglebtn</button>
+            <form action="#" method="get">
+                <input type="search" id="search" name="search">
+                <button type="submit">search_btn</button>
+            </form>
+            <nav class="menunav">
+            <ul class="menulist">
+                <li><a href="#">레시피</a></li>
+                <li><a href="#">셰프</a></li>
+                <li><a href="#">파트너스</a></li>
+                <li><a href="#">이벤트</a></li>
+            </ul>
+            <div id="login">
+                <a href="#">로그인</a>
+                <a href="#">회원가입</a>
+            </div>
+            </nav>
+        </header>
+        <section id="first_container">
+            <h2>계절 밥상 추천</h2>
+            <p>
+                1년 365일, 다양한 재료로 만든 맛있는 음식들을 즐기세요!
+            </p>
+            <div class="rec">
+                <div class="recommend">
+                    <div class="recommend12">
+                        <h3>12월</h3>
+                        <img src="./images/december.webp" alt="">
+                        <a href="#">대하버터구이</a>
+                    </div>
+                    <div class="recommend1">
+                        <h3>1월</h3>
+                        <img src="./images/january.jpg" alt="">
+                        <a href="#">꼬막비빔밥</a>
+                    </div>
+                    <div class="recommend2">
+                        <h3>2월</h3>
+                        <img src="./images/fabruary.jpg" alt="">
+                        <a href="#">바지락칼국수</a>
+                    </div>
+                    <div class="recommend3">
+                        <h3>3월</h3>
+                        <img src="./images/march.jpg" alt="">
+                        <a href="#">미나리차돌덮밥</a>
+                    </div>
+                    <div class="recommend4">
+                        <h3>4월</h3>
+                        <img src="./images/april.jpg" alt="">
+                        <a href="#">더덕구이</a>
+                    </div>
+                    <div class="recommend5">
+                        <h3>5월</h3>
+                        <img src="./images/may.jpg" alt="">
+                        <a href="#">쭈꾸미볶음</a>
+                    </div>
+                    <div class="recommend6">
+                        <h3>6월</h3>
+                        <img src="./images/june.jpg" alt="">
+                        <a href="#">장어구이</a>
+                    </div>
+                    <div class="recommend7">
+                        <h3>7월</h3>
+                        <img src="./images/july.jpg" alt="">
+                        <a href="#">오징어볶음</a>
+                    </div>
+                    <div class="recommend8">
+                        <h3>8월</h3>
+                        <img src="./images/august.jpg" alt="">
+                        <a href="#">전복솥밥</a>
+                    </div>
+                    <div class="recommend9">
+                        <h3>9월</h3>
+                        <img src="./images/september.jpg" alt="">
+                        <a href="#">고등어조림</a>
+                    </div>
+                    <div class="recommend10">
+                        <h3>10월</h3>
+                        <img src="./images/october.png" alt="">
+                        <a href="#">간장게장</a>
+                    </div>
+                    <div class="recommend11">
+                        <h3>11월</h3>
+                        <img src="./images/november.jfif" alt="">
+                        <a href="#">도미지리</a>
+                    </div>
+                </div>
+                <a href="#" class="prev">prev</a>
+                <a href="#" class="next">next</a>
+                <span class="emoji"></span>
+            </div>
+        </section>
+        <section id="second_container">
+            <form action="#" method="get">
+                <input type="search" id="search1" name="search" value="간편 키워드 검색창" readonly>
+                <button type="submit">search_btn</button>
+            </form>
+            <div class="allkw">
+            <div class="keyward">
+                    <h3>추천 키워드</h3>
+                    <div class="menu">
+                        <a href="#chickensoup">닭볶음탕</a>
+                        <a href="#kimchisoup">김치찌개</a>
+                        <a href="#gamjatang">감자탕</a>
+                        <a href="#sogogimiyokguk">소고기미역국</a>
+                        <a href="#altang">알탕</a>
+                        <a href="#yukkaejang">육개장</a>
+                        <a href="#junbok">전복솥밥</a>
+                        <a href="#doenjangjjigae">된장찌개</a>
+                    </div>
+                </div>
+                <div class="division1">
+                    <h3>나라별</h3>
+                    <div class="menu1">
+                        <a href="#">한식</a>
+                        <a href="#">일식</a>
+                        <a href="#">중식</a>
+                        <a href="#">양식</a>
+                    </div>
+                </div>
+                <div class="division2">
+                    <h3>종류별</h3>
+                    <div class="menu2">
+                        <a href="#">메인요리</a>
+                        <a href="#">메인반찬</a>
+                        <a href="#">밑반찬</a>
+                        <a href="#">빵/과자</a>
+                        <a href="#">차/음료/술</a>
+                        <a href="#">양념/소스/잼</a>
+                    </div>
+                </div>
+                <div class="division3">
+                    <h3>재료별</h3>
+                    <div class="menu3">
+                        <a href="#">육류</a>
+                        <a href="#">해물류</a>
+                        <a href="#">채소류</a>
+                        <a href="#">가공식품류</a>
+                        <a href="#">달걀/유제품</a>
+                        <a href="#">과일류</a>
+                    </div>
+                </div>
+                <div class="division4">
+                    <h3>방법별</h3>
+                    <div class="menu4">
+                        <a href="#">굽기</a>
+                        <a href="#">데치기</a>
+                        <a href="#">삶기</a>
+                        <a href="#">끓이기</a>
+                        <a href="#">볶기</a>
+                        <a href="#">졸이기</a>
+                    </div>
+                </div>
+                </div>
+        </section>
+        <section id="third_container">
+            <div class="ranking1">
+                <div class="ranking_menu1">
+                    <h2>메인요리 랭킹</h2>
+                    <a href="#">더보기</a>
+                </div>
+                <div class="ranking_list1">
+                    <ul>
+                        <li><span class="first"></span><img src="./images/first_m.jpg" alt=""></li>
+                        <li><span class="second"></span><img src="./images/second_m.jpg" alt=""></li>
+                        <li><span class="third"></span><img src="./images/third_m.jpg" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+                <span class="lineb"></span>
+                <div class="ranking2">
+                <div class="ranking_menu2">
+                    <h2>반찬 랭킹</h2>
+                    <a href="#">더보기</a>
+                </div>
+                <div class="ranking_list2">
+                    <ul>
+                        <li><span class="first"></span><img src="./images/first_b.jpg" alt=""></li>
+                        <li><span class="second"></span><img src="./images/second_b.jpg" alt=""></li>
+                        <li><span class="third"></span><img src="./images/third_b.jpg" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="fourth_container">
+            <h2>고객 추천 레시피</h2>
+            <div class="ment">
+                <p>사용자들이 추천하고 많이 본<br>만개의 레시피!</p>
+                <p>여러분들도 한번 만들어보세요!</p>
+            </div>
+            <div class="customer">
+            <div class="customer1">
+                <h3>추천수 1위</h3>
+                <div class="rank1">
+                    <h4>김*연님 추천 레시피 알탕!</h4>
+                    <p class="num1">+48</p>
+                    <span class="line"></span>
+                    <p class="info1">
+                        매콤한 알탕에 감칠맛을 내는 알들의 조화!<br>
+                        얼큰하고 시원한 맛이 일품이에요.<br>
+                        어른들 술안주로도 정말 맛있답니다.
+                    </p>
+                </div>
+            </div>
+            <div class="customer2">
+                <h3>추천수 2위</h3>
+                <div class="rank2">
+                    <h4>조*윤님 추천 레시피 오징어무국!</h4>
+                    <p class="num2">+37</p>
+                    <span class="line"></span>
+                    <p class="info2">
+                        시원하고 칼칼한 맛의 오징어 무국입니다.<br>
+                        깔끔함이 돋보이는 음식이지요.<br>
+                        술 마신 다음날 해장으로 딱입니다.
+                    </p>
+                </div>
+            </div>
+            <div class="customer3">
+                <h3>조회수 1위</h3>
+                <div class="rank3">
+                    <h4>이*영님 추천 레시피 잔치국수!</h4>
+                    <p class="num3">+1,361</p>
+                    <span class="line"></span>
+                    <p class="info3">
+                        아이들이 정말 좋아하는 잔치국수입니다~<br>
+                        멸치육수랑 고명의 궁합이 끝내줘요!<br>
+                        꼭 한번 만들어서 드셔보세요!
+                    </p>
+                </div>
+            </div>
+            <div class="customer4">
+                <h3>조회수 2위</h3>
+                <div class="rank4">
+                    <h4>유*양님 추천 레시피 콩비지!</h4>
+                    <p class="num4">+1,029</p>
+                    <span class="line"></span>
+                    <p class="info4">
+                        밥과 정말 잘 어울리는 콩비지!<br>
+                        돼지고기 듬성듬성 잘라 넣으면 더 맛있죠!
+                    </p>
+                </div>
+            </div>    
+        </div>
+        <div class="ment2">
+            <p>레시피 어플 랭킹 1위 만개의 레시피!</p>
+            <p>만개의 레시피와 함께<br>맛있는 하루를 만들어보아요~</p>
+        </div>
+        <a href="#">더 많은 추천 레시피 보러가기</a> 
+        </section>
+        <footer id="main_footer">
+            <div class="footer1">
+                <div class="f1">
+                <p>
+                    대표 : 이인경 / E : help@10000recipe.com / F : 02) 323-5049<br>
+                    서울 금천구 가산동 371-50 에이스하이엔드타워 3차 1106-1호<br>
+                    문의전화(운영시간 평일 10:00~18:00)<br>
+                    쇼핑문의(만개스토어) : 02-6953-4433<br>
+                    서비스 이용문의 : 070-4896-6416
+                </p>
+                <p>
+                    (주)만개의레시피 / 사업자등록번호 291-81-02485 / 통신판매업신고 2022-서울금천-3089 / 사업자정보확인<br>
+                    서울지방중소기업청 제 031134233-1-01643호
+                </p>
+                </div>
+                <div class="f2">
+                <p>
+                    <a href="#">회사소개 · 광고/제휴</a>
+                    <a href="#">개인정보처리방침</a>
+                    <a href="#">이용약관</a>
+                    <a href="#">고객센터</a>
+                </p>
+                <p>
+                    Copyright 만개의레시피 Inc. All Rights Reserved
+                </p>
+                </div>
+            </div>
+            <span class="line_b"></span>
+            <div class="footer2">
+                <div class="app">APP DOWNLOAD<img src="./images/QR Code_android.png" alt=""><img src="./images/QR Code_iphone.png" alt=""></div>
+                <div class="link">
+                    <a href="#">f</a>
+                    <a href="#">i</a>
+                    <a href="#">y</a>
+                    <a href="#">k</a>
+                </div>
+            </div>
+        </footer>
+        <section id="fifth_container">
+            <h2>오늘의 추천 메뉴</h2>
+            <p class="r1">오늘</p>
+            <p class="r2">오늘</p>
+            <div class="roullete">
+                <div class="pic">tteokbokki</div>
+                <h4>떡볶이</h4>
+                <a href="#">STOP!!</a>
+            </div>
+            <p class="r3">오늘</p>
+            <p class="r4">오늘</p>
+        </section>
+    </div>
+</body>
+</html>
